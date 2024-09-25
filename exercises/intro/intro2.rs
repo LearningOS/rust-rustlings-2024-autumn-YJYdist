@@ -7,5 +7,6 @@
 
 
 fn main() {
-    println!("Hello world!");
+    let my_name: &str = "yjydist";
+    println!("Hello world! {}", my_name);
 }
