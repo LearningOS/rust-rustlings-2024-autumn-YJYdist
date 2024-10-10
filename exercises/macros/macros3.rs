@@ -8,12 +8,15 @@
 // I AM NOT DONE
 
 mod macros {
+
+    pub use self::my_macro;
     macro_rules! my_macro {
         () => {
             println!("Check out my macro!");
         };
     }
 }
+
 
 fn main() {
     my_macro!();
